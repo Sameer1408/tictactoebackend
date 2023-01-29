@@ -18,7 +18,8 @@ app.use(fileUpload());
 
 const port = 4000;
 
-app.use('/api/auth',require('./routes/auth.js'))
+
+app.use('/api/auth',require('./auth.js'))
 
 const server = http.createServer(app);
 
