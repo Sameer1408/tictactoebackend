@@ -25,7 +25,7 @@ const server = http.createServer(app);
 
 const io = new Server(server,{
     cors:{
-        origin:"https://luminous-scone-113fa7.netlify.app/",
+        origin:"https://luminous-scone-113fa7.netlify.app",
         methods:["GET","POST"],
     }
 })
